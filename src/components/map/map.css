@@ -1,0 +1,23 @@
+.tkc__map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.tkc__map h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+
+.tkc__map img{
+    padding-top: 1rem;
+    width: 50%;
+    height: 50%;
+}

@@ -1,11 +1,11 @@
 import eugene from '../../assets/eugene.png'
-import sarenia from '../../assets/eugene.png'
-import ariah from '../../assets/eugene.png'
-import berrian from '../../assets/eugene.png'
-import opal from '../../assets/eugene.png'
-import pluto from '../../assets/eugene.png'
-import jewel from '../../assets/eugene.png'
-import leg from '../../assets/eugene.png'
+import sarenia from '../../assets/tkc_logo.png'
+import ariah from '../../assets/tkc_logo.png'
+import berrian from '../../assets/tkc_logo.png'
+import opal from '../../assets/tkc_logo.png'
+import pluto from '../../assets/pluto.webp'
+import jewel from '../../assets/tkc_logo.png'
+import leg from '../../assets/tkc_logo.png'
 
 export {
     eugene,

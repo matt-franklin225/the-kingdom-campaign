@@ -1,11 +1,11 @@
-.gpt3__brand {
+.gpt3__break {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.gpt3__brand div {
+.gpt3__break div {
     flex: 1;
     max-width: 150px;
     min-width: 120px;
@@ -14,4 +14,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.gpt3__break h2 {
+    font-family: var(--font-family);
+    color: #fff;
+    font-size: 36px;
 }
