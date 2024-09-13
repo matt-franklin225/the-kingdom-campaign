@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 2rem 6rem;
+    padding: 2rem 6rem 0;
 }
 
 .gpt3__navbar-links {
@@ -18,8 +18,8 @@
 }
 
 .gpt3__navbar-links_logo img {
-    width: 62.56px;
-    height: 16.02px;
+    width: 192px;
+    height: 108px;
 }
 
 .gpt3__navbar-links_container {
@@ -36,7 +36,7 @@
 .gpt3__navbar-links_container p,
 .gpt3__navbar-sign p,
 .gpt3__navbar-menu_container p {
-    color: #fff;
+    color: #000;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -50,7 +50,7 @@
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
     padding: 0.5rem 1rem;
-    color: #fff;
+    color: #000;
     background: #FF4820;
     font-family: var(--font-family);
     font-weight: 500;
@@ -64,7 +64,7 @@
 
 .gpt3__navbar-menu {
     margin-left: 1rem;
-    color: #fff;
+    color: #000;
 
     display: none;
     position: relative;
