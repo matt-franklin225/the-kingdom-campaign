@@ -14,11 +14,11 @@ const WhatGPT3 = () => (
     </div> */}
     <div className="gpt3__characters-container">
       <Feature name="Eugene Rider" imgUrl={eugene} text="High King of Fireshallow" />
+      <Feature name="Pluto Johnson" imgUrl={pluto} text="King of the Full Moon" />
       <Feature name="Sarenia Valen" imgUrl={sarenia} text="The Sane One" />
       <Feature name="Ariah Rhialla" imgUrl={ariah} text="Do You Like Magic?" />
       <Feature name="Berrían Berevan" imgUrl={berrian} text="Lover of Trees" />
-      <Feature name="Opal Blade" imgUrl={opal} text="Unstable Mental Faculties" />
-      <Feature name="Pluto Johnson" imgUrl={pluto} text="King of the Full Moon" />
+      <Feature name="Opal Blade" imgUrl={opal} text="Victim of Mental Breakdowns" />
       <Feature name="Jewel Dragoneere" imgUrl={jewel} text="Hater of Golden People" />
       <Feature name="St. Lēg" imgUrl={leg} text="Champion of Avandra" />
     </div>
