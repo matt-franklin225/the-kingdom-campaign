@@ -1,6 +1,6 @@
 import React from 'react'
 import './features.css'
-import { Feature } from '../../components'
+import { Character } from '../../components'
 
 const featuresData = [
     {
@@ -30,7 +30,7 @@ const Features = () => {
             </div>
             <div className="gpt3__features-container">
                 {featuresData.map((item,index) => (
-                    <Feature title={item.title} text={item.text} key={item.title + index}/>
+                    <Character title={item.title} text={item.text} key={item.title + index}/>
                 ))}
             </div>
         </div>

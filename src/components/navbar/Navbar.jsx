@@ -5,8 +5,8 @@ import './navbar.css';
 
 const Menu = () => (
     <>
-    <p><a href="#plot">Plot</a></p>
     <p><a href="#characters">Characters</a></p>
+    <p><a href="#plot">Plot</a></p>
     <p><a href="#npcs">NPCs</a></p>
     <p><a href="#art">Art</a></p>
     <p><a href="#map">Map</a></p>
