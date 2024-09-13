@@ -1,4 +1,4 @@
-.gpt3__characters {
+.tkc__characters {
     display: flex;
     flex-direction: column;
 
@@ -20,27 +20,27 @@
         background: radial-gradient(circle at 20% 0%, rgba(248, 248, 189, 1) 0%, rgba(192, 182, 119, 1) 100%);
 }
 
-.gpt3__characters-feature {
+.tkc__characters-character {
     display: flex;
 }
 
-.gpt3__characters-feature h1 {
+.tkc__characters-character h1 {
     font-size: 64px;
     font-family: var(--font-family);
     color: #000;
 }
 
-/* Customizing feature component as per needs */
-.gpt3__characters-feature .gpt3__features-container__feature {
+/* Customizing character component as per needs */
+.tkc__characters-character .tkc__characters-container__character {
     margin: 0;
 }
 
-/* Customizing feature component as per needs */
-.gpt3__characters-feature .gpt3__features-container_feature-text {
+/* Customizing character component as per needs */
+.tkc__characters-character .tkc__characters-container_character-text {
     max-width: 700px;
 }
 
-.gpt3__characters-heading {
+.tkc__characters-heading {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -49,7 +49,7 @@
     margin: 4rem 0 2rem;
 }
 
-.gpt3__characters-heading h1 {
+.tkc__characters-heading h1 {
     font-size: 34px;
     line-height: 45px;
     font-weight: 800;
@@ -57,7 +57,7 @@
     max-width: 510px;
 }
 
-.gpt3__characters-heading p {
+.tkc__characters-heading p {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 6px;
@@ -66,7 +66,7 @@
     cursor: pointer;
 }
 
-.gpt3__characters-container {
+.tkc__characters-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -80,8 +80,8 @@
     margin-top: 2rem;
 }
 
-/* Customizing feature component as per needs */
-.gpt3__characters-container .gpt3__features-container__feature {
+/* Customizing character component as per needs */
+.tkc__characters-container .tkc__characters-container__character {
     flex: 1;
     margin: 1rem;
     min-width: 210px;
@@ -89,43 +89,43 @@
     flex-direction: column;
 }
 
-/* Customizing feature component as per needs */
-.gpt3__characters-container .gpt3__features-container_feature-text {
+/* Customizing character component as per needs */
+.tkc__characters-container .tkc__characters-container_character-text {
     margin-top: 0.5rem;
 }
 
 @media screen and (max-width: 850px) {
-    .gpt3__characters-heading {
+    .tkc__characters-heading {
         flex-direction: column;
         align-items: flex-start;
         margin-bottom: 0rem;
     }
 
-    .gpt3__characters-heading p {
+    .tkc__characters-heading p {
         margin-top: 1rem;
     }
 }
 
 @media screen and (max-width: 650px) {
-    /* Customizing feature component as per needs */
-    .gpt3__characters-feature .gpt3__features-container__feature {
+    /* Customizing character component as per needs */
+    .tkc__characters-character .tkc__characters-container__character {
         flex-direction: column;
     }
 
-    /* Customizing feature component as per needs */
-    .gpt3__characters-feature .gpt3__features-container_feature-text {
+    /* Customizing character component as per needs */
+    .tkc__characters-character .tkc__characters-container_character-text {
         margin-top: 0.5rem;
     }
 
-    .gpt3__characters-heading h1 {
+    .tkc__characters-heading h1 {
         font-size: 28px;
         line-height: 40px;
     }
 }
 
 @media screen and (max-width: 350px) {
-    /* Customizing feature component as per needs */
-    .gpt3__characters-container .gpt3__features-container__feature {
+    /* Customizing character component as per needs */
+    .tkc__characters-container .tkc__characters-container__character {
         margin: 1rem 0;
         min-width: 100%;
     }

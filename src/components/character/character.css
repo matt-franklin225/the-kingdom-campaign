@@ -1,4 +1,4 @@
-.gpt3__characters-container__character {
+.tkc__characters-container__character {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -8,13 +8,13 @@
     margin: 1rem;
 }
 
-.gpt3__characters-container__character-title {
+.tkc__characters-container__character-title {
     flex: 1;
     max-width: 300px;
     margin-right: 2rem;
 }
 
-.gpt3__characters-container__character-title h1 {
+.tkc__characters-container__character-title h1 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 32px;
@@ -23,7 +23,7 @@
     color: #000;
 }
 
-.gpt3__characters-container__character-title div {
+.tkc__characters-container__character-title div {
     width: 38px;
     height: 3px;
     background: var(--gradient-bar);
@@ -31,22 +31,22 @@
     margin-bottom: 0.25rem;
 }
 
-.gpt3__characters-container__character-image {
+.tkc__characters-container__character-image {
     height: 410px;
 }
 
-.gpt3__characters-container__character-image img{
+.tkc__characters-container__character-image img{
     width: 400px;
     padding-top: 0.25rem;
 }
 
-.gpt3__characters-container_character-text {
+.tkc__characters-container_character-text {
     flex: 2;
     max-width: 390px;
     display: flex;
 }
 
-.gpt3__characters-container_character-text p {
+.tkc__characters-container_character-text p {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 28px;
@@ -55,17 +55,17 @@
 }
 
 @media screen and (max-width: 550px) {
-    .gpt3__characters-container__character-title h1 {
+    .tkc__characters-container__character-title h1 {
         font-size: 14px;
         line-height: 22px;
     }
 
-    .gpt3__characters-container_character-text p {
+    .tkc__characters-container_character-text p {
         font-size: 12px;
         line-height: 20px;
     }
 
-    .gpt3__characters-container__character {
+    .tkc__characters-container__character {
         margin: 1rem 0;
     }
 }
