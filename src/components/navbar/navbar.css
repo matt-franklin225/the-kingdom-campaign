@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 2rem 6rem 0;
+    padding: 2rem 6rem 0rem;
 }
 
 .tkc__navbar-links {
@@ -44,21 +44,6 @@
     text-transform: capitalize;
 
     margin: 0 1rem;
-    cursor: pointer;
-}
-
-.tkc__navbar-sign button,
-.tkc__navbar-menu_container button {
-    padding: 0.5rem 1rem;
-    color: #000;
-    background: #FF4820;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
     cursor: pointer;
 }
 
