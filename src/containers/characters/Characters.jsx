@@ -16,10 +16,10 @@ const Characters = () => (
       <Character name="Eugene Rider" imgUrl={eugene} text="High King of Fireshallow" />
       <Character name="Pluto Johnson" imgUrl={pluto} text="Lord of the Golden Order" />
       <Character name="Ariah Rhialla" imgUrl={ariah} text="Architect of the EmberWild" />
-      <Character name="Sarenia Valen" imgUrl={sarenia} text="The Sane One" />
+      <Character name="Sarenia Valen" imgUrl={sarenia} text="The Bard Ambassador" />
       <Character name="Berrían Berevan" imgUrl={berrian} text="Elder of Ashenveil Forest" />
       <Character name="Opal Blade" imgUrl={opal} text="Victim of Mental Breakdowns" />
-      <Character name="Jewel Dragoneere" imgUrl={jewel} text="Hater of Golden People" />
+      <Character name="Jewel Dragoneere" imgUrl={jewel} text="Survivor of Thara" />
       <Character name="St. Lēg" imgUrl={leg} text="Champion of Avandra" />
     </div>
   </div>

@@ -32,12 +32,8 @@
     margin-bottom: 0.25rem;
 }
 
-.tkc__characters-container__character-image {
-    height: 410px;
-}
-
 .tkc__characters-container__character-image img{
-    width: 400px;
+    max-width: 400px;
     padding-top: 0.25rem;
 }
 
@@ -57,13 +53,17 @@
 
 @media screen and (max-width: 550px) {
     .tkc__characters-container__character-title h1 {
-        font-size: 14px;
-        line-height: 22px;
+        font-size: 32px;
+        line-height: 36px;
     }
 
     .tkc__characters-container_character-text p {
-        font-size: 12px;
-        line-height: 20px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .tkc__characters-container__character-image img {
+        width: 100%;
     }
 
     .tkc__characters-container__character {

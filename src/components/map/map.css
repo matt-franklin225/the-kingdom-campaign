@@ -21,3 +21,18 @@
     width: 60%;
     height: 60%;
 }
+
+@media screen and (max-width: 1000px) {
+    /* Customizing character component as per needs */
+    .tkc__map img{
+        width: 80%;
+        height: 80%;
+    }
+}
+@media screen and (max-width: 650px) {
+    /* Customizing character component as per needs */
+    .tkc__map img{
+        width: 100%;
+        height: 100%;
+    }
+}
