@@ -12,7 +12,7 @@
 
 .tkc__seasons-season h1 {
     font-size: 64px;
-    font-family: var(--font-family);
+    font-family: var(--font-family-heading);
     color: #000;
 }
 

@@ -1,0 +1,26 @@
+import React from 'react'
+import { Footer, Characters, Header, Seasons } from './containers';
+import { Break, Navbar, Map } from './components';
+import './Home.css';
+
+const App = () => {
+    return (
+        <div className="App">
+            <div className="gradient__bg">
+                <Navbar />
+                <Header />
+            </div>
+            <Break />
+            <Characters />
+            {/* <Features /> */}
+            <Seasons />
+            <Map />
+            {/* <Possibility /> */}
+            {/* <CTA /> */}
+            {/* <Blog /> */}
+            <Footer />
+        </div>
+    )
+}
+
+export default App

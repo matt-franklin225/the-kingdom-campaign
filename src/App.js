@@ -1,31 +1,27 @@
-import React from 'react'
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Home from './Home';
+// import About from './About';
+// import Contact from './Contact';
 
-// import { Footer, Blog, Possibility, Features, Characters, Header } from './containers';
-// import { CTA, Break, Navbar, Map } from './components';
-
-import { Footer, Characters, Header, Seasons } from './containers';
-import { Break, Navbar, Map } from './components';
-
-import './App.css';
-
-const App = () => {
+function App() {
     return (
-        <div className="App">
-            <div className="gradient__bg">
-                <Navbar />
-                <Header />
-            </div>
-            <Break />
-            <Characters />
-            {/* <Features /> */}
-            <Seasons />
-            <Map />
-            {/* <Possibility /> */}
-            {/* <CTA /> */}
-            {/* <Blog /> */}
-            <Footer />
-        </div>
-    )
+    <Router>
+        <nav>
+            <ul>
+                <li><Link to="/">Home</Link></li>
+                {/* <li><Link to="/about">About</Link></li>
+                <li><Link to="/contact">Contact</Link></li> */}
+            </ul>
+        </nav>
+
+        <Routes>
+            <Route path="/" element={<Home />} />
+            {/* <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} /> */}
+        </Routes>
+        </Router>
+    );
 }
 
-export default App
+export default App;

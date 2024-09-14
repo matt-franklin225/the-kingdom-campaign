@@ -14,9 +14,9 @@
 }
 
 .tkc__header-content h1 {
-    font-family: var(--font-family);
+    font-family: var(--font-family-heading);
     font-weight: 800;
-    font-size: 62px;
+    font-size: 56px;
     line-height: 75px;
     letter-spacing: -0.04em;
 }
@@ -44,7 +44,7 @@
     max-height: 408px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1260px) {
     .tkc__header {
         flex-direction: column;
     }
