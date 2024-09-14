@@ -3,13 +3,13 @@
     display: flex;
     align-items: flex-start;
     flex-direction: row;
-    margin: 1rem;
+    margin: 0.5rem 0;
 }
 
 .tkc__seasons-container__season-image {
     flex: 1;
-    max-height: 200px;
-    max-width: 500px;
+    /* max-height: 200px;
+    max-width: 500px; */
 }
 
 .tkc__seasons-container__season-image img{
@@ -44,7 +44,7 @@
     font-size: 32px;
     line-height: 44px;
     letter-spacing: -0.04em;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     color: #000;
 }
 
@@ -66,7 +66,7 @@
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 28px;
-    line-height: 24px;
+    line-height: 32px;
     color: #000;
 }
 
