@@ -1,5 +1,5 @@
 import eugene from '../../assets/eugene.png'
-import sarenia from '../../assets/tkc_logo.png'
+import sarenia from '../../assets/sarenia.jpg'
 import ariah from '../../assets/ariah.jpg'
 import opal from '../../assets/opal.jpg'
 import berrian from '../../assets/tkc_logo.png'
