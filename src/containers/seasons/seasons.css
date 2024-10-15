@@ -3,7 +3,7 @@
     flex-direction: column;
 
     padding: 2rem;
-    background: var(--color-footer);
+    /* background: var(--color-footer); */
 }
 
 .tkc__seasons-season {

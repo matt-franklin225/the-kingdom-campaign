@@ -15,7 +15,9 @@ const Home = () => {
             <div className="gradient__bg">
                 <Characters />
             </div>
-            <Seasons />
+            <div className="dark__bg">
+                <Seasons />
+            </div>
             <Map />
             <Footer />
         </div>

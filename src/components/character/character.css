@@ -33,6 +33,7 @@
 }
 
 .tkc__characters-container__character-image img{
+    width: 100%;
     max-width: 400px;
     padding-top: 0.25rem;
 }

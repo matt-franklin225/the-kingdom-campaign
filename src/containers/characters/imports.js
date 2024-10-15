@@ -2,10 +2,10 @@ import eugene from '../../assets/eugene.png'
 import sarenia from '../../assets/sarenia.jpg'
 import ariah from '../../assets/ariah.jpg'
 import opal from '../../assets/opal.jpg'
-import berrian from '../../assets/tkc_logo.png'
+import berrian from '../../assets/berrian.jpg'
 import pluto from '../../assets/pluto.jpg'
-import jewel from '../../assets/tkc_logo.png'
-import leg from '../../assets/tkc_logo.png'
+import jewel from '../../assets/jewel.png'
+import leg from '../../assets/leg.jpg'
 
 export {
     eugene,

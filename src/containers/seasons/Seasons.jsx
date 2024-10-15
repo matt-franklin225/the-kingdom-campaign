@@ -3,7 +3,7 @@ import Season from '../../components/season/Season';
 import {s1_img, s2_img, s3_img } from './imports'
 import './seasons.css';
 
-const Whattkc = () => (
+const Page = () => (
     <div className="tkc__seasons section__margin" id="seasons">
         <div className="tkc__seasons-season">
             <h1>Seasons</h1>
@@ -16,4 +16,4 @@ const Whattkc = () => (
     </div>
 );
 
-export default Whattkc;
+export default Page;

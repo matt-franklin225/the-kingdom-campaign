@@ -19,14 +19,11 @@ function SeasonDetail() {
                 <Navbar />
                 <div className="tkc__season_detail-info section__padding">
                     <div className="tkc__season_detail-info-heading">
-                        <div className="tkc__season_detail-name">
-                            <h1>{season.name}</h1>
+                        <div className="tkc__season_detail-title">
+                            <h1>Season {season.id}: {season.title}</h1>
                         </div>
                         <div className="tkc__season_detail-image">
                             <img src={season.imgUrl} alt={season.name}/>
-                        </div>
-                        <div className="tkc__season_detail-title">
-                            <h2>{season.title}</h2>
                         </div>
                     </div>
                 </div>
@@ -35,6 +32,12 @@ function SeasonDetail() {
                     <div className="tkc__season_detail-description-text">
                         <h3>{season.description}</h3>
                     </div>
+                </div>
+                <div className="tkc__season_detail-episodes">
+                    <h1>Episodes</h1>
+                    {/* <div className="tkc__season_detail-description-text">
+                        <h3>{season.description}</h3>
+                    </div> This section is complex, come back to it later */}
                 </div>
             </div>
             <Break />
