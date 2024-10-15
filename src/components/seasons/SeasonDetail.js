@@ -38,6 +38,9 @@ function SeasonDetail() {
                     {/* <div className="tkc__season_detail-description-text">
                         <h3>{season.description}</h3>
                     </div> This section is complex, come back to it later */}
+                    <div className="tkc__season_detail-description-text">
+                        <h3>Coming soon...</h3>
+                    </div>
                 </div>
             </div>
             <Break />
