@@ -3,7 +3,9 @@ import { Footer } from '../../containers';
 import { Break, Navbar } from '..';
 import { useParams } from 'react-router-dom';
 import { seasons } from './data/seasons';
+import { episodes } from '../episodes/data/episodes.js';
 import './season_detail.css'
+
 
 function SeasonDetail() {
     const { loc } = useParams();
@@ -12,6 +14,8 @@ function SeasonDetail() {
     if (!season) {
         return <h2>Season not found</h2>;
     }
+
+    const seasonEpisodes = episodes.filter(episode => episode.season === season.id);
 
     return (
         <div className="tkc__season_detail section_margin">
@@ -35,11 +39,20 @@ function SeasonDetail() {
                 </div>
                 <div className="tkc__season_detail-episodes">
                     <h1>Episodes</h1>
-                    {/* <div className="tkc__season_detail-description-text">
-                        <h3>{season.description}</h3>
-                    </div> This section is complex, come back to it later */}
-                    <div className="tkc__season_detail-description-text">
-                        <h3>Coming soon...</h3>
+                    <div className="tkc__episode_detail-description-text">
+                        <div id="episodes-list">
+                                {seasonEpisodes.length > 0 ? (
+                                    seasonEpisodes.map((episode) => (
+                                        <div key={episode.id} className="episode">
+                                            <h3>Episode {episode.episode_num}: {episode.title}</h3>
+                                            <p>{episode.description}</p>
+                                            {/* <a href={episode.loc}>Read more</a> */}
+                                        </div>
+                                    ))
+                                ) : (
+                                    <p>No episodes found for this season.</p>
+                                )}
+                        </div>
                     </div>
                 </div>
             </div>
