@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Character from '../../components/character/Character';
 import {eugene, sarenia, berrian, ariah, opal, pluto, jewel, leg } from './imports'
 import './characters.css';
@@ -7,7 +6,7 @@ import './characters.css';
 const Characters = () => (
   <div className="tkc__characters section__margin" id="characters">
     <div className="tkc__characters-character">
-      <h1><Link to="/characters">Characters</Link></h1>
+      <h1><a href="/characters">Characters</a></h1>
     </div>
     <div className="tkc__characters-container">
       <Character name="Eugene Rider" imgUrl={eugene} text="High King of Fireshallow" page="/characters/eugene_rider"/>

@@ -7,25 +7,26 @@ const Footer = () => {
         <div className="tkc__footer section__padding">
             <div className="tkc__footer-links">
                 <div className="tkc__footer-links_logo">
-                    <img src={logo} alt="logo" />
+                    <a href="/"><img src={logo} alt="logo"></img></a>
                     <p>Brought to you by Lil G</p>
                 </div>
                 <div className="tkc__footer-links_div">
                     <h4>Links</h4>
-                    <p>Characters</p>
-                    <p>Seasons</p>
-                    <p>Artwork</p>
-                    <p>Map</p>
+                    <p><a href="/characters">Characters</a></p>
+                    <p><a href="/seasons">Seasons</a></p>
+                    {/* <p>Artwork</p>
+                    <p>Map</p> */}
                 </div>
                 <div className="tkc__footer-links_div">
                     <h4>Seasons</h4>
-                    <p>S1: Waterdeep Dragon Heist</p>
-                    <p>S2: Conquest of Fireshallow</p>
-                    <p>S3: The War on Thara</p>
+                    <p><a href="/seasons/season_1">S1: Waterdeep Dragon Heist</a></p>
+                    <p><a href="/seasons/season_2">S2: Conquest of Fireshallow</a></p>
+                    <p><a href="/seasons/season_3">S3: The War on Thara</a></p>
+                    <p><a href="/seasons/season_4">S4: Shattered Crowns</a></p>
                 </div>
                 <div className="tkc__footer-links_div">
-                    <h4>Get in touch</h4>
-                    <p>madeupemail@gmail.com</p>
+                    <h4>About</h4>
+                    <p>Coming soon...</p>
                 </div>
             </div>
             <div className="tkc__footer-copyright">
