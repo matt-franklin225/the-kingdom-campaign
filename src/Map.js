@@ -1,6 +1,6 @@
 import React from 'react'
-import { Seasons, Footer } from './containers';
-import { Break, Navbar } from './components';
+import { Footer } from './containers';
+import { Break, Navbar, Map } from './components';
 import './Home.css';
 
 const Page = () => {
@@ -8,7 +8,9 @@ const Page = () => {
         <div className="App">
             <div className="gradient__bg">
                 <Navbar />
-                <Seasons />
+            </div>
+            <div className="dark__bg">
+                <Map />
             </div>
             <Break />
             <Footer />

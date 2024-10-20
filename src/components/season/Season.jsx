@@ -6,7 +6,7 @@ const Season = ({ title, text, imgUrl, page }) => (
     <div className="tkc__season">
         <div className="tkc__seasons-container__season-description">
             <div className="tkc__seasons-container__season-title">
-                <h1><Link to={page}>{title}</Link></h1>
+                <h1><a href={page}>{title}</a></h1>
             </div>
             <div className="tkc__seasons-container__season-text">
                 <p>{text}</p>

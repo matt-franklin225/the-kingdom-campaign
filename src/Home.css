@@ -35,7 +35,7 @@ a {
     background: linear-gradient(90deg, rgba(248, 248, 189, 1) 2%, rgba(192, 182, 119, 1) 100%);
 }
 
-.dark__bg 
+.dark__bg
 {
     background: var(--color-footer);
 }

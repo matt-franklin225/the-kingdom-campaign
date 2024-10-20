@@ -50,7 +50,7 @@ function SeasonDetail() {
                                         </div>
                                     ))
                                 ) : (
-                                    <p>No episodes found for this season.</p>
+                                    <p>No episode descriptions yet.</p>
                                 )}
                         </div>
                     </div>

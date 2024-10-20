@@ -7,7 +7,7 @@ const Menu = () => (
     <>
     <p><a href="/characters">Characters</a></p>
     <p><a href="/seasons">Seasons</a></p>
-    <p><a href="#map">Map</a></p>
+    <p><a href="/map">Map</a></p>
     </>
 )
 
