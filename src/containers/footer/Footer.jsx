@@ -11,7 +11,7 @@ const Footer = () => {
                     <p>Brought to you by Lil G</p>
                 </div>
                 <div className="tkc__footer-links_div">
-                    <h4>Links</h4>
+                    <h4>Pages</h4>
                     <p><a href="/characters">Characters</a></p>
                     <p><a href="/seasons">Seasons</a></p>
                     <p><a href="/map">Map</a></p>
