@@ -14,8 +14,7 @@ const Footer = () => {
                     <h4>Links</h4>
                     <p><a href="/characters">Characters</a></p>
                     <p><a href="/seasons">Seasons</a></p>
-                    {/* <p>Artwork</p>
-                    <p>Map</p> */}
+                    <p><a href="/map">Map</a></p>
                 </div>
                 <div className="tkc__footer-links_div">
                     <h4>Seasons</h4>
@@ -26,11 +25,8 @@ const Footer = () => {
                 </div>
                 <div className="tkc__footer-links_div">
                     <h4>About</h4>
-                    <p>Coming soon...</p>
+                    <p><a href="/about">About Us</a></p>
                 </div>
-            </div>
-            <div className="tkc__footer-copyright">
-                <p>Website developed by Matt Franklin (AKA Eugene Rider)</p>
             </div>
         </div>
     )

@@ -6,6 +6,7 @@ import Characters from './Characters';
 import CharacterDetail from './components/characters/CharacterDetail';
 import Seasons from './Seasons';
 import Map from './Map';
+import About from './About';
 import SeasonDetail from './components/seasons/SeasonDetail';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path="/seasons" element={<Seasons />} />
             <Route path="/seasons/:loc" element={<SeasonDetail />} />
             <Route path="/map" element={<Map />} />
+            <Route path="/about" element={<About />} />
         </Routes>
     </Router>
     );

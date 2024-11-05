@@ -15,8 +15,8 @@ const Characters = () => (
       <Character name="Opal Blade" imgUrl={opal} text="Brightcandle of Fireshallow" page="/characters/opal_blade"/>
       <Character name="Sarenia Valen" imgUrl={sarenia} text="Exalted Singbird of Fireshallow" page="/characters/sarenia_valen"/>
       <Character name="Berrían Berevan" imgUrl={berrian} text="Elder of Ashenveil Forest" page="/characters/berrian_berevan"/>
-      <Character name="Jewel Dragoneere" imgUrl={jewel} text="Survivor of Thara" page="/characters/jewel_dragoneere"/>
-      <Character name="St. Lēg" imgUrl={leg} text="Champion of Avandra" page="/characters/st_leg"/>
+      <Character name="Jewel Dragoneere" imgUrl={jewel} text="Avenger of the Dragonborn" page="/characters/jewel_dragoneere"/>
+      <Character name="Lēg Corrunpo" imgUrl={leg} text="Champion of Avandra" page="/characters/st_leg"/>
     </div>
   </div>
 );
