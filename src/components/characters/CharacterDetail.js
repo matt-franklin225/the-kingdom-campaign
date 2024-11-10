@@ -79,6 +79,12 @@ function CharacterDetail() {
                         <h3>{character.description}</h3>
                     </div>
                 </div>
+                <div className="tkc__character_detail-description">
+                    <h1>Notable Accomplishments</h1>
+                    <div className="tkc__character_detail-description-text">
+                        <h3>{character.accomplishments}</h3>
+                    </div>
+                </div>
             </div>
             <Break />
             <Footer />

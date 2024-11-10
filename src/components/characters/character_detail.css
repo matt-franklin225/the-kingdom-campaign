@@ -4,6 +4,7 @@
     justify-content: space-between;
     /* align-items: flex-start; */
     flex-direction: column;
+    white-space: pre-line;
 }
 
 .tkc__character_detail-info {
