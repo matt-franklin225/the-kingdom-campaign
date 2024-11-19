@@ -14,7 +14,6 @@ const Home = () => {
             <Break />
             <div className="gradient__bg">
                 <Characters />
-                <Characters />
             </div>
             <div className="dark__bg">
                 <Seasons />
