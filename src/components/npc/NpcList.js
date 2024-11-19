@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { characters } from './data/characters';
+import { npcs } from './data/npcs';
 
-function CharacterList() {
+function NpcList() {
     return (
         <div>
-            <h1>Characters</h1>
+            <h1>Npcs</h1>
             <ul>
-                {characters.map((character) => (
-                    <li key={character.loc}>
-                        <Link to={`/characters/${character.loc}`}>{character.name}</Link>
+                {npcs.map((npc) => (
+                    <li key={npc.loc}>
+                        <Link to={`/npcs/${npc.loc}`}>{npc.name}</Link>
                     </li>
                 ))}
             </ul>
@@ -17,4 +17,4 @@ function CharacterList() {
     );
 }
 
-export default CharacterList;
+export default NpcList;

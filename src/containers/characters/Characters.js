@@ -36,15 +36,6 @@ function Characters() {
           </div>
         </div>
       </div>
-
-      // {/* <Character name="Eugene Rider" imgUrl={eugene} text="High King of Fireshallow" page="/characters/eugene_rider"/>
-      // <Character name="Pluto Johnson" imgUrl={pluto} text="Lord of the Golden Order" page="/characters/pluto_johnson"/>
-      // <Character name="Ariah Rhialla" imgUrl={ariah} text="Architect of the EmberWild" page="/characters/ariah_rhialla"/>
-      // <Character name="Opal Blade" imgUrl={opal} text="Brightcandle of Fireshallow" page="/characters/opal_blade"/>
-      // <Character name="Sarenia Valen" imgUrl={sarenia} text="Exalted Singbird of Fireshallow" page="/characters/sarenia_valen"/>
-      // <Character name="Berrían Berevan" imgUrl={berrian} text="Elder of Ashenveil Forest" page="/characters/berrian_berevan"/>
-      // <Character name="Jewel Dragoneere" imgUrl={jewel} text="Avenger of the Dragonborn" page="/characters/jewel_dragoneere"/>
-      // <Character name="Lēg Corrunpo" imgUrl={leg} text="Champion of Avandra" page="/characters/st_leg"/> */}
     );
   }
 

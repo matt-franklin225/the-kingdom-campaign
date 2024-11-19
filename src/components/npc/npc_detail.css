@@ -1,4 +1,4 @@
-.tkc__character_detail {
+.tkc__npc_detail {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -7,7 +7,7 @@
     white-space: pre-line;
 }
 
-.tkc__character_detail-info {
+.tkc__npc_detail-info {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -15,13 +15,13 @@
     flex-direction: row;
 }
 
-.tkc__character_detail-name {
+.tkc__npc_detail-name {
     flex: 1;
     max-width: 300px;
     margin-right: 2rem;
 }
 
-.tkc__character_detail-name h1 {
+.tkc__npc_detail-name h1 {
     font-family: var(--font-family-handwritten);
     font-weight: 800;
     font-size: 48px;
@@ -31,7 +31,7 @@
     color: #000;
 }
 
-.tkc__character_detail-name div {
+.tkc__npc_detail-name div {
     width: 38px;
     height: 3px;
     background: #000;
@@ -39,20 +39,20 @@
     margin-bottom: 0.25rem;
 }
 
-.tkc__character_detail-image img{
+.tkc__npc_detail-image img{
     max-width: 400px;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
     width: 100%;
 }
 
-.tkc__character_detail-title {
+.tkc__npc_detail-title {
     flex: 2;
     max-width: 390px;
     display: flex;
 }
 
-.tkc__character_detail-title h2 {
+.tkc__npc_detail-title h2 {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 26px;
@@ -60,17 +60,17 @@
     color: #000;
 }
 
-.tkc__character_detail-info-details {
+.tkc__npc_detail-info-details {
     padding-top: 4rem;
     padding-left: 6rem;
     flex: 2;
 }
 
-.tkc__character_detail-info-heading {
+.tkc__npc_detail-info-heading {
     flex: 2;
 }
 
-.tkc__character_detail-trait h2 {
+.tkc__npc_detail-trait h2 {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 28px;
@@ -78,7 +78,7 @@
     color: #000;
 }
 
-.tkc__character_detail-value h3 {
+.tkc__npc_detail-value h3 {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 24px;
@@ -87,11 +87,11 @@
     color: #000;
 }
 
-.tkc__character_detail-description {
+.tkc__npc_detail-description {
     padding: 0 6rem 2rem 6rem;
 }
 
-.tkc__character_detail-description h1 {
+.tkc__npc_detail-description h1 {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 36px;
@@ -99,7 +99,7 @@
     color: #000;
 }
 
-.tkc__character_detail-description h3 {
+.tkc__npc_detail-description h3 {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -108,21 +108,21 @@
 }
 
 @media screen and (max-width: 550px) {
-    .tkc__character_detail-name h1 {
+    .tkc__npc_detail-name h1 {
         font-size: 32px;
         line-height: 36px;
     }
 
-    .tkc__character_detail-title h2 {
+    .tkc__npc_detail-title h2 {
         font-size: 18px;
         line-height: 26px;
     }
 
-    .tkc__character_detail-image img {
+    .tkc__npc_detail-image img {
         width: 100%;
     }
 
-    .tkc__character_detail {
+    .tkc__npc_detail {
         margin: 1rem 0;
     }
 }
