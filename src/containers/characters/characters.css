@@ -16,12 +16,12 @@
 }
 
 /* Customizing character component as per needs */
-.tkc__characters-character .tkc__characters-container__character {
+.tkc__characters-character .character {
     margin: 0;
 }
 
 /* Customizing character component as per needs */
-.tkc__characters-character .tkc__characters-container_character-text {
+.tkc__characters-character .character {
     max-width: 700px;
 }
 
@@ -51,14 +51,8 @@
     cursor: pointer;
 }
 
-.tkc__characters-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-
-    flex: 1;
-
-    display:grid;
+.characters-list {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
 
@@ -66,7 +60,7 @@
 }
 
 /* Customizing character component as per needs */
-.tkc__characters-container .tkc__characters-container__character {
+.characters-list .character {
     flex: 1;
     margin: 1rem;
     min-width: 210px;
@@ -75,12 +69,12 @@
 }
 
 /* Customizing character component as per needs */
-.tkc__characters-container .tkc__characters-container_character-text {
+.characters-list .tkc__characters-container_character-text {
     margin-top: 0.5rem;
 }
 
 @media screen and (max-width: 1500px) {
-    .tkc__characters-container {
+    .characters-list {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -96,7 +90,7 @@
 }
 
 @media screen and (max-width: 1050px) {
-    .tkc__characters-container {
+    .characters-list {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -113,7 +107,7 @@
 
 @media screen and (max-width: 650px) {
     /* Customizing character component as per needs */
-    .tkc__characters-character .tkc__characters-container__character {
+    .tkc__characters-character .character {
         flex-direction: column;
     }
 
@@ -130,7 +124,7 @@
 
 @media screen and (max-width: 350px) {
     /* Customizing character component as per needs */
-    .tkc__characters-container .tkc__characters-container__character {
+    .characters-list .tkc__characters-container__character {
         margin: 1rem 0;
         min-width: 100%;
     }
