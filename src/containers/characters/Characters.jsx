@@ -9,6 +9,18 @@ const Characters = () => (
       <h1><a href="/characters">Characters</a></h1>
     </div>
     <div className="tkc__characters-container">
+      {/* <div id="episodes-list">
+        {seasonEpisodes.length > 0 ? (
+            seasonEpisodes.map((character) => (
+                <div key={episode.id} className="episode">
+                    <h3>{episode.episode_num}: {episode.title}</h3>
+                    <p>{episode.description}</p>
+                </div>
+            ))
+        ) : (
+            <p>No episode descriptions yet.</p>
+        )}
+      </div> */}
       <Character name="Eugene Rider" imgUrl={eugene} text="High King of Fireshallow" page="/characters/eugene_rider"/>
       <Character name="Pluto Johnson" imgUrl={pluto} text="Lord of the Golden Order" page="/characters/pluto_johnson"/>
       <Character name="Ariah Rhialla" imgUrl={ariah} text="Architect of the EmberWild" page="/characters/ariah_rhialla"/>

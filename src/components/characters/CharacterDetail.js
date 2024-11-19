@@ -6,8 +6,6 @@ import { characters } from './data/characters';
 import './character_detail.css'
 
 function CharacterDetail() {
-    // const { id } = useParams();
-    // const character = characters.find((char) => char.id === parseInt(id));
     const { loc } = useParams();
     const character = characters.find((char) => char.loc === loc);
 
