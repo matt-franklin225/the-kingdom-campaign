@@ -1,7 +1,7 @@
 import React from 'react';
-import './npc.css';
+import './npc_simple.css';
 
-const Npc = ({ name, text, imgUrl, page }) => (
+const Npc = ({ name, imgUrl, page }) => (
     <div className="tkc__npcs-container__npc">
         <div className="tkc__npcs-container__npc-title">
             <div />
@@ -9,9 +9,6 @@ const Npc = ({ name, text, imgUrl, page }) => (
         </div>
         <div className="tkc__npcs-container__npc-image">
             <a href={page}><img src={imgUrl} alt="Npc"/></a>
-        </div>
-        <div className="tkc__npcs-container_npc-text">
-            <p>{text}</p>
         </div>
     </div>
 );

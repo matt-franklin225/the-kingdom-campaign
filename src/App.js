@@ -4,6 +4,7 @@ import ScrollToTop from './ScrollToTop';
 import Home from './Home';
 import Characters from './Characters';
 import CharacterDetail from './components/characters/CharacterDetail';
+import NpcDetail from './components/npc/NpcDetail';
 import Seasons from './Seasons';
 import Map from './Map';
 import About from './About';
@@ -20,6 +21,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/characters" element={<Characters />} />
             <Route path="/characters/:loc" element={<CharacterDetail />} />
+            <Route path="/npcs/:loc" element={<NpcDetail />} />
             <Route path="/seasons" element={<Seasons />} />
             <Route path="/seasons/:loc" element={<SeasonDetail />} />
             <Route path="/map" element={<Map />} />

@@ -44,29 +44,10 @@
     padding-top: 0.25rem;
 }
 
-.tkc__npcs-container_npc-text {
-    flex: 2;
-    max-width: 390px;
-    display: flex;
-}
-
-.tkc__npcs-container_npc-text p {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 26px;
-    line-height: 24px;
-    color: #000;
-}
-
 @media screen and (max-width: 550px) {
     .tkc__npcs-container__npc-title h1 {
         font-size: 32px;
         line-height: 36px;
-    }
-
-    .tkc__npcs-container_npc-text p {
-        font-size: 18px;
-        line-height: 26px;
     }
 
     .tkc__npcs-container__npc-image img {

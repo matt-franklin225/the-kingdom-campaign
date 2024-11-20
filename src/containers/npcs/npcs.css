@@ -1,0 +1,135 @@
+.tkc__npcs {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+}
+
+.section__margin {
+    padding: 4rem 6rem;
+}
+
+.tkc__npcs-npc {
+    display: flex;
+}
+
+.tkc__npcs-npc h1 {
+    font-size: 64px;
+    font-family: var(--font-family-heading);
+    color: #000;
+}
+
+/* Customizing npc component as per needs */
+.tkc__npcs-npc .npc {
+    margin: 0;
+}
+
+/* Customizing npc component as per needs */
+.tkc__npcs-npc .npc {
+    max-width: 700px;
+}
+
+.tkc__npcs-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 4rem 0 2rem;
+}
+
+.tkc__npcs-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+}
+
+.tkc__npcs-heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 6px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.npcs-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+
+    margin-top: 2rem;
+}
+
+/* Customizing npc component as per needs */
+.npcs-list .npc {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+/* Customizing npc component as per needs */
+.npcs-list .tkc__npcs-container_npc-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 1500px) {
+    .npcs-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    
+        flex: 1;
+    
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+    
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .npcs-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    
+        flex: 1;
+    
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2rem;
+    
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing npc component as per needs */
+    .tkc__npcs-npc .npc {
+        flex-direction: column;
+    }
+
+    /* Customizing npc component as per needs */
+    .tkc__npcs-npc .tkc__npcs-container_npc-text {
+        margin-top: 0.5rem;
+    }
+
+    .tkc__npcs-npc h1 {
+        font-size: 48px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing npc component as per needs */
+    .npcs-list .tkc__npcs-container__npc {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
