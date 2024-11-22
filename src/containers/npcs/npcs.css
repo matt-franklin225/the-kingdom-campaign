@@ -1,4 +1,4 @@
-.tkc__npcs {
+.npcs {
     display: flex;
     flex-direction: column;
 
@@ -9,27 +9,28 @@
     padding: 4rem 6rem;
 }
 
-.tkc__npcs-npc {
+.npcs-npc {
     display: flex;
 }
 
-.tkc__npcs-npc h1 {
+.npcs-npc h1 {
     font-size: 64px;
     font-family: var(--font-family-heading);
     color: #000;
 }
 
-/* Customizing npc component as per needs */
-.tkc__npcs-npc .npc {
-    margin: 0;
+.npcs-npc h2 {
+    font-size: 24px;
+    font-family: var(--font-family);
+    color: #000;
 }
 
-/* Customizing npc component as per needs */
-.tkc__npcs-npc .npc {
+.npcs-npc .npc {
+    margin: 0;
     max-width: 700px;
 }
 
-.tkc__npcs-heading {
+.npcs-heading {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -38,7 +39,7 @@
     margin: 4rem 0 2rem;
 }
 
-.tkc__npcs-heading h1 {
+.npcs-heading h1 {
     font-size: 34px;
     line-height: 45px;
     font-weight: 800;
@@ -46,7 +47,7 @@
     max-width: 510px;
 }
 
-.tkc__npcs-heading p {
+.npcs-heading p {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 6px;
@@ -73,7 +74,7 @@
 }
 
 /* Customizing npc component as per needs */
-.npcs-list .tkc__npcs-container_npc-text {
+.npcs-list .npcs-container_npc-text {
     margin-top: 0.5rem;
 }
 
@@ -111,16 +112,16 @@
 
 @media screen and (max-width: 650px) {
     /* Customizing npc component as per needs */
-    .tkc__npcs-npc .npc {
+    .npcs-npc .npc {
         flex-direction: column;
     }
 
     /* Customizing npc component as per needs */
-    .tkc__npcs-npc .tkc__npcs-container_npc-text {
+    .npcs-npc .npcs-container_npc-text {
         margin-top: 0.5rem;
     }
 
-    .tkc__npcs-npc h1 {
+    .npcs-npc h1 {
         font-size: 48px;
         line-height: 40px;
     }
@@ -128,7 +129,7 @@
 
 @media screen and (max-width: 350px) {
     /* Customizing npc component as per needs */
-    .npcs-list .tkc__npcs-container__npc {
+    .npcs-list .npcs-container__npc {
         margin: 1rem 0;
         min-width: 100%;
     }

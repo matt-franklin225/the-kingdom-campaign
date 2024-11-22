@@ -3,14 +3,14 @@ import Npc from '../../components/npc/NpcSimple.jsx';
 import { npcs } from '../../components/npc/data/npcs.js';
 import './npcs.css';
 
-function Npcs() {
+function FullNpcs() {
 
     return (
-      <div className="tkc__npcs section__margin" id="npcs">
-        <div className="tkc__npcs-npc">
+      <div className="npcs section__margin" id="npcs">
+        <div className="npcs-npc">
           <h1><a href="/npcs">Npcs</a></h1>
         </div>
-        <div className="tkc__npcs-container">
+        <div className="npcs-container">
         <div id="npcs-list" className="npcs-list">
             {npcs.length > 0 ? (
                 npcs.map((npc) => (
@@ -27,4 +27,4 @@ function Npcs() {
     );
   }
 
-export default Npcs;
+export default FullNpcs;
