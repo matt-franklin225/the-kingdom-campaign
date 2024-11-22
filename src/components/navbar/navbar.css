@@ -1,4 +1,4 @@
-.tkc__navbar {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,36 +6,36 @@
     padding: 2rem 6rem 0rem;
 }
 
-.tkc__navbar-links {
+.navbar-links {
     flex: 1;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.tkc__navbar-links_logo {
+.navbar-links_logo {
     margin-right: 2rem;
 }
 
-.tkc__navbar-links_logo img {
+.navbar-links_logo img {
     width: 192px;
     height: 108px;
 }
 
-.tkc__navbar-links_container {
+.navbar-links_container {
     display: flex;
     flex-direction: row;
 }
 
-.tkc__navbar-sign {
+.navbar-sign {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.tkc__navbar-links_container p,
-.tkc__navbar-sign p,
-.tkc__navbar-menu_container p {
+.navbar-links_container p,
+.navbar-sign p,
+.navbar-menu_container p {
     color: #000;
     font-family: var(--font-family);
     font-weight: 500;
@@ -47,7 +47,7 @@
     cursor: pointer;
 }
 
-.tkc__navbar-menu {
+.navbar-menu {
     margin-left: 1rem;
     color: #000;
 
@@ -55,11 +55,11 @@
     position: relative;
 }
 
-.tkc__navbar-menu svg {
+.navbar-menu svg {
     cursor: pointer;
 }
 
-.tkc__navbar-menu_container {
+.navbar-menu_container {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -77,44 +77,44 @@
     box-shadow: 0 0 5 rgba(0,0,0,0.2);
 }
 
-.tkc__navbar-menu_container p {
+.navbar-menu_container p {
     margin: 1rem 0;
 }
 
-.tkc__navbar-menu_container-links-sign {
+.navbar-menu_container-links-sign {
     display: none;
 }
 
 @media screen and (max-width: 850px) {
-    .tkc__navbar-links_container {
+    .navbar-links_container {
         display: none;
     }
 
-    .tkc__navbar-menu {
+    .navbar-menu {
         display: flex;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .tkc__navbar {
+    .navbar {
         padding: 2rem 4rem;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .tkc__navbar {
+    .navbar {
         padding: 2rem;
     }
 
-    .tkc__navbar-sign {
+    .navbar-sign {
         display: none;
     }
 
-    .tkc__navbar-menu_container {
+    .navbar-menu_container {
         top: 20px;
     }
 
-    .tkc__navbar-menu_container-links-sign {
+    .navbar-menu_container-links-sign {
         display: block;
     }
 }

@@ -18,28 +18,28 @@ function SeasonDetail() {
     const seasonEpisodes = episodes.filter(episode => episode.season === season.id);
 
     return (
-        <div className="tkc__season_detail section_margin">
+        <div className="season_detail section_margin">
             <div className="gradient__bg">
                 <Navbar />
-                <div className="tkc__season_detail-info section__padding">
-                    <div className="tkc__season_detail-info-heading">
-                        <div className="tkc__season_detail-title">
+                <div className="season_detail-info section__padding">
+                    <div className="season_detail-info-heading">
+                        <div className="season_detail-title">
                             <h1>Season {season.id}: {season.title}</h1>
                         </div>
-                        <div className="tkc__season_detail-image">
+                        <div className="season_detail-image">
                             <img src={season.imgUrl} alt={season.name}/>
                         </div>
                     </div>
                 </div>
-                <div className="tkc__season_detail-description">
+                <div className="season_detail-description">
                     <h1>Description</h1>
-                    <div className="tkc__season_detail-description-text">
+                    <div className="season_detail-description-text">
                         <h3>{season.description}</h3>
                     </div>
                 </div>
-                <div className="tkc__season_detail-episodes">
+                <div className="season_detail-episodes">
                     <h1>Episodes</h1>
-                    <div className="tkc__episode_detail-description-text">
+                    <div className="episode_detail-description-text">
                         <div id="episodes-list">
                                 {seasonEpisodes.length > 0 ? (
                                     seasonEpisodes.map((episode) => (

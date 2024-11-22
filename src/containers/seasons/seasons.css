@@ -1,4 +1,4 @@
-.tkc__seasons {
+.seasons {
     display: flex;
     flex-direction: column;
 
@@ -6,27 +6,27 @@
     /* background: var(--color-footer); */
 }
 
-.tkc__seasons-season {
+.seasons-season {
     display: flex;
 }
 
-.tkc__seasons-season h1 {
+.seasons-season h1 {
     font-size: 64px;
     font-family: var(--font-family-heading);
     color: #000;
 }
 
 /* Customizing season component as per needs */
-.tkc__seasons-season .tkc__seasons-container__season {
+.seasons-season .seasons-container__season {
     margin: 0;
 }
 
 /* Customizing season component as per needs */
-.tkc__seasons-season .tkc__seasons-container_season-text {
+.seasons-season .seasons-container_season-text {
     max-width: 700px;
 }
 
-.tkc__seasons-container {
+.seasons-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -37,7 +37,7 @@
 }
 
 /* Customizing season component as per needs */
-.tkc__seasons-container .tkc__seasons-container__season {
+.seasons-container .seasons-container__season {
     flex: 1;
     margin: 1rem;
     min-width: 210px;
@@ -46,37 +46,37 @@
 }
 
 /* Customizing season component as per needs */
-.tkc__seasons-container .tkc__seasons-container_season-text {
+.seasons-container .seasons-container_season-text {
     margin-top: 0.5rem;
 }
 
 @media screen and (max-width: 850px) {
-    .tkc__seasons-heading {
+    .seasons-heading {
         flex-direction: column;
         align-items: flex-start;
         margin-bottom: 0rem;
     }
 
-    .tkc__seasons-heading p {
+    .seasons-heading p {
         margin-top: 1rem;
     }
 }
 
 @media screen and (max-width: 650px) {
     /* Customizing season component as per needs */
-    .tkc__seasons-season .tkc__seasons-container__season {
+    .seasons-season .seasons-container__season {
         flex-direction: column;
     }
 
     /* Customizing season component as per needs */
-    .tkc__seasons-season .tkc__seasons-container_season-text {
+    .seasons-season .seasons-container_season-text {
         margin-top: 0.5rem;
     }
 }
 
 @media screen and (max-width: 350px) {
     /* Customizing season component as per needs */
-    .tkc__seasons-container .tkc__seasons-container__season {
+    .seasons-container .seasons-container__season {
         margin: 1rem 0;
         min-width: 100%;
     }

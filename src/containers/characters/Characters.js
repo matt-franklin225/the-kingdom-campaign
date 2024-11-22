@@ -6,11 +6,11 @@ import './characters.css';
 function Characters() {
 
     return (
-      <div className="tkc__characters section__margin" id="characters">
-        <div className="tkc__characters-character">
+      <div className="characters section__margin" id="characters">
+        <div className="characters-character">
           <h1><a href="/characters">Characters</a></h1>
         </div>
-        <div className="tkc__characters-container">
+        <div className="characters-container">
         <div id="characters-list" className="characters-list">
             {characters.length > 0 ? (
                 characters.map((character) => (

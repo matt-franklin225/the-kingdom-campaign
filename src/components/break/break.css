@@ -1,11 +1,11 @@
-.tkc__break {
+.break {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.tkc__break div {
+.break div {
     flex: 1;
     max-width: 150px;
     min-width: 120px;
@@ -16,7 +16,7 @@
     align-items: center;
 }
 
-.tkc__break h2 {
+.break h2 {
     font-family: var(--font-family);
     color: #fff;
     font-size: 36px;

@@ -15,36 +15,36 @@ function NpcDetail() {
 
     return (
         
-        <div className="tkc__npc_detail section_margin">
+        <div className="npc_detail section_margin">
             <div className="gradient__bg">
                 <Navbar />
-                <div className="tkc__npc_detail-info section__padding">
-                    <div className="tkc__npc_detail-info-heading">
-                        <div className="tkc__npc_detail-name">
+                <div className="npc_detail-info section__padding">
+                    <div className="npc_detail-info-heading">
+                        <div className="npc_detail-name">
                             <h1>{npc.name}</h1>
                         </div>
-                        <div className="tkc__npc_detail-image">
+                        <div className="npc_detail-image">
                             <img src={npc.imgUrl} alt={npc.name}/>
                         </div>
                     </div>
-                    <div className="tkc__npc_detail-info-details">
-                        <div className="tkc__npc_detail-trait">
+                    <div className="npc_detail-info-details">
+                        <div className="npc_detail-trait">
                             <h2>{'Class:'}</h2>
                         </div>
-                        <div className="tkc__npc_detail-value">
+                        <div className="npc_detail-value">
                             <h3>{npc.class}</h3>
                         </div>
-                        <div className="tkc__npc_detail-trait">
+                        <div className="npc_detail-trait">
                             <h2>{'Race:'}</h2>
                         </div>
-                        <div className="tkc__npc_detail-value">
+                        <div className="npc_detail-value">
                             <h3>{npc.race}</h3>
                         </div>
                     </div>
                 </div>
-                <div className="tkc__npc_detail-description">
+                <div className="npc_detail-description">
                     <h1>Description</h1>
-                    <div className="tkc__npc_detail-description-text">
+                    <div className="npc_detail-description-text">
                         <h3>{npc.description}</h3>
                     </div>
                 </div>

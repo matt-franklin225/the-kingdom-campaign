@@ -1,33 +1,31 @@
-.tkc__episode_detail {
+.episode_detail {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /* align-items: flex-start; */
     flex-direction: column;
 }
 
-.tkc__episode_detail-info {
+.episode_detail-info {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /* align-items: flex-start; */
     flex-direction: row;
 }
 
-.tkc__episode_detail-image img{
+.episode_detail-image img{
     max-width: 400px;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
     width: 100%;
 }
 
-.tkc__episode_detail-title {
+.episode_detail-title {
     flex: 2;
     max-width: 390px;
     display: flex;
 }
 
-.tkc__episode_detail-title h2 {
+.episode_detail-title h2 {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 26px;
@@ -35,15 +33,15 @@
     color: #000;
 }
 
-.tkc__episode_detail-info-heading {
+.episode_detail-info-heading {
     flex: 2;
 }
 
-.tkc__episode_detail-description {
+.episode_detail-description {
     padding: 0 6rem 2rem 6rem;
 }
 
-.tkc__episode_detail-description h1 {
+.episode_detail-description h1 {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 36px;
@@ -51,7 +49,7 @@
     color: #000;
 }
 
-.tkc__episode_detail-description h3 {
+.episode_detail-description h3 {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -60,16 +58,16 @@
 }
 
 @media screen and (max-width: 550px) {
-    .tkc__episode_detail-title h2 {
+    .episode_detail-title h2 {
         font-size: 18px;
         line-height: 26px;
     }
 
-    .tkc__episode_detail-image img {
+    .episode_detail-image img {
         width: 100%;
     }
 
-    .tkc__episode_detail {
+    .episode_detail {
         margin: 1rem 0;
     }
 }

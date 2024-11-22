@@ -1,31 +1,31 @@
-.tkc__characters {
+.characters {
     display: flex;
     flex-direction: column;
 
     padding: 2rem;
 }
 
-.tkc__characters-character {
+.characters-character {
     display: flex;
 }
 
-.tkc__characters-character h1 {
+.characters-character h1 {
     font-size: 64px;
     font-family: var(--font-family-heading);
     color: #000;
 }
 
 /* Customizing character component as per needs */
-.tkc__characters-character .character {
+.characters-character .character {
     margin: 0;
 }
 
 /* Customizing character component as per needs */
-.tkc__characters-character .character {
+.characters-character .character {
     max-width: 700px;
 }
 
-.tkc__characters-heading {
+.characters-heading {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -34,7 +34,7 @@
     margin: 4rem 0 2rem;
 }
 
-.tkc__characters-heading h1 {
+.characters-heading h1 {
     font-size: 34px;
     line-height: 45px;
     font-weight: 800;
@@ -42,7 +42,7 @@
     max-width: 510px;
 }
 
-.tkc__characters-heading p {
+.characters-heading p {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 6px;
@@ -69,7 +69,7 @@
 }
 
 /* Customizing character component as per needs */
-.characters-list .tkc__characters-container_character-text {
+.characters-list .characters-container_character-text {
     margin-top: 0.5rem;
 }
 
@@ -107,16 +107,16 @@
 
 @media screen and (max-width: 650px) {
     /* Customizing character component as per needs */
-    .tkc__characters-character .character {
+    .characters-character .character {
         flex-direction: column;
     }
 
     /* Customizing character component as per needs */
-    .tkc__characters-character .tkc__characters-container_character-text {
+    .characters-character .characters-container_character-text {
         margin-top: 0.5rem;
     }
 
-    .tkc__characters-character h1 {
+    .characters-character h1 {
         font-size: 48px;
         line-height: 40px;
     }
@@ -124,7 +124,7 @@
 
 @media screen and (max-width: 350px) {
     /* Customizing character component as per needs */
-    .characters-list .tkc__characters-container__character {
+    .characters-list .characters-container__character {
         margin: 1rem 0;
         min-width: 100%;
     }

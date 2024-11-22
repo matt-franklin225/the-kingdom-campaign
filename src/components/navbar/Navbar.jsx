@@ -15,23 +15,23 @@ const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
 
     return (
-        <div className="tkc__navbar">
-            <div className="tkc__navbar-links">
-                <div className="tkc__navbar-links_logo">
+        <div className="navbar">
+            <div className="navbar-links">
+                <div className="navbar-links_logo">
                     <a href="/"><img src={logo} alt="logo"></img></a>
                 </div>
-                <div className="tkc__navbar-links_container">
+                <div className="navbar-links_container">
                     <Menu />
                 </div>
             </div>
-            <div className="tkc__navbar-menu">
+            <div className="navbar-menu">
                 {toggleMenu
                     ? <RiCloseLine color="fff" size = {27} onClick={() => setToggleMenu(false)} />
                     : <RiMenu3Line color="fff" size = {27} onClick={() => setToggleMenu(true)} />
                 }
                 {toggleMenu &&(
-                    <div className="tkc__navbar-menu_container scale-up-center">
-                        <div className="tkc__navbar-menu_container-links">
+                    <div className="navbar-menu_container scale-up-center">
+                        <div className="navbar-menu_container-links">
                             <Menu />
                         </div>
                     </div>

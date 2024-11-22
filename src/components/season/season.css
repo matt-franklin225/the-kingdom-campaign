@@ -1,4 +1,4 @@
-.tkc__season {
+.season {
     width: 100%;
     display: flex;
     align-items: flex-start;
@@ -6,21 +6,21 @@
     margin: 1rem 0;
 }
 
-.tkc__seasons-container__season-image {
+.seasons-container__season-image {
     flex: 1;
 }
 
-.tkc__seasons-container__season-image img{
+.seasons-container__season-image img{
     width: 100%;
     height: 100%;
     padding-top: 0.25rem;
 }
 
-.tkc__seasons-container__season-description {
+.seasons-container__season-description {
     flex: 1;
 }
 
-.tkc__seasons-container__season-description {
+.seasons-container__season-description {
     width: 100%;
     flex: 1;
     justify-content: space-between;
@@ -30,13 +30,13 @@
     margin: 1rem;
 }
 
-.tkc__seasons-container__season-title {
+.seasons-container__season-title {
     flex: 1;
     max-width: 600px;
     margin-right: 2rem;
 }
 
-.tkc__seasons-container__season-title h1 {
+.seasons-container__season-title h1 {
     font-family: var(--font-family-handwritten);
     font-weight: 800;
     font-size: 48px;
@@ -46,7 +46,7 @@
     color: #000;
 }
 
-.tkc__seasons-container__season-title div {
+.seasons-container__season-title div {
     width: 38px;
     height: 3px;
     background: var(--gradient-bar);
@@ -54,13 +54,13 @@
     margin-bottom: 0.25rem;
 }
 
-.tkc__seasons-container__season-text {
+.seasons-container__season-text {
     flex: 1;
     max-width: 600px;
     display: flex;
 }
 
-.tkc__seasons-container__season-text p {
+.seasons-container__season-text p {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 28px;
@@ -69,31 +69,31 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .tkc__season {
+    .season {
         flex-direction: column;
     }
 
-    .tkc__seasons-container__season-text {
+    .seasons-container__season-text {
         max-width: none;
     }
 
-    .tkc__seasons-container__season-image {
+    .seasons-container__season-image {
         margin-left: 1rem;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .tkc__seasons-container__season-title h1 {
+    .seasons-container__season-title h1 {
         font-size: 14px;
         line-height: 22px;
     }
 
-    .tkc__seasons-container__season-text p {
+    .seasons-container__season-text p {
         font-size: 12px;
         line-height: 20px;
     }
 
-    .tkc__seasons-container__season {
+    .seasons-container__season {
         margin: 1rem 0;
     }
 }

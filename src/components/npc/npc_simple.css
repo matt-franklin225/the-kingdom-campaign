@@ -1,4 +1,4 @@
-.tkc__npcs-container__npc {
+.npcs-container__npc {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -8,13 +8,13 @@
     margin: 1rem;
 }
 
-.tkc__npcs-container__npc-title {
+.npcs-container__npc-title {
     flex: 1;
     max-width: 300px;
     margin-right: 2rem;
 }
 
-.tkc__npcs-container__npc-title h1 {
+.npcs-container__npc-title h1 {
     font-family: var(--font-family-handwritten);
     font-weight: 800;
     font-size: 48px;
@@ -24,7 +24,7 @@
     color: #000;
 }
 
-.tkc__npcs-container__npc-title div {
+.npcs-container__npc-title div {
     width: 38px;
     height: 3px;
     background: #000;
@@ -32,29 +32,29 @@
     margin-bottom: 0.25rem;
 }
 
-.tkc__npcs-container__npc-image{
+.npcs-container__npc-image{
     width: 100%;
     max-width: 400px;
     padding-top: 0.25rem;
 }
 
-.tkc__npcs-container__npc-image img{
+.npcs-container__npc-image img{
     width: 100%;
     max-width: 400px;
     padding-top: 0.25rem;
 }
 
 @media screen and (max-width: 550px) {
-    .tkc__npcs-container__npc-title h1 {
+    .npcs-container__npc-title h1 {
         font-size: 32px;
         line-height: 36px;
     }
 
-    .tkc__npcs-container__npc-image img {
+    .npcs-container__npc-image img {
         width: 100%;
     }
 
-    .tkc__npcs-container__npc {
+    .npcs-container__npc {
         margin: 1rem 0;
     }
 }

@@ -1,4 +1,4 @@
-.tkc__characters-container__character {
+.characters-container__character {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -8,13 +8,13 @@
     margin: 1rem;
 }
 
-.tkc__characters-container__character-title {
+.characters-container__character-title {
     flex: 1;
     max-width: 300px;
     margin-right: 2rem;
 }
 
-.tkc__characters-container__character-title h1 {
+.characters-container__character-title h1 {
     font-family: var(--font-family-handwritten);
     font-weight: 800;
     font-size: 48px;
@@ -24,7 +24,7 @@
     color: #000;
 }
 
-.tkc__characters-container__character-title div {
+.characters-container__character-title div {
     width: 38px;
     height: 3px;
     background: #000;
@@ -32,25 +32,25 @@
     margin-bottom: 0.25rem;
 }
 
-.tkc__characters-container__character-image{
+.characters-container__character-image{
     width: 100%;
     max-width: 400px;
     padding-top: 0.25rem;
 }
 
-.tkc__characters-container__character-image img{
+.characters-container__character-image img{
     width: 100%;
     max-width: 400px;
     padding-top: 0.25rem;
 }
 
-.tkc__characters-container_character-text {
+.characters-container_character-text {
     flex: 2;
     max-width: 390px;
     display: flex;
 }
 
-.tkc__characters-container_character-text p {
+.characters-container_character-text p {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 26px;
@@ -59,21 +59,21 @@
 }
 
 @media screen and (max-width: 550px) {
-    .tkc__characters-container__character-title h1 {
+    .characters-container__character-title h1 {
         font-size: 32px;
         line-height: 36px;
     }
 
-    .tkc__characters-container_character-text p {
+    .characters-container_character-text p {
         font-size: 18px;
         line-height: 26px;
     }
 
-    .tkc__characters-container__character-image img {
+    .characters-container__character-image img {
         width: 100%;
     }
 
-    .tkc__characters-container__character {
+    .characters-container__character {
         margin: 1rem 0;
     }
 }

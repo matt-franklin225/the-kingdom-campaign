@@ -1,11 +1,11 @@
-.tkc__season_detail {
+.season_detail {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
 
-.tkc__season_detail-info {
+.season_detail-info {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -14,27 +14,27 @@
     padding: 2rem 6rem 2rem 6rem;
 }
 
-.tkc__season_detail-info-heading {
+.season_detail-info-heading {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.tkc__season_detail-image {
+.season_detail-image {
     flex: 1;
 }
 
-.tkc__season_detail-image img{
+.season_detail-image img{
     width: 100%;
     height: 100%;
 }
 
-.tkc__season_detail-title {
+.season_detail-title {
     display: flex;
     flex: 1;
 }
 
-.tkc__season_detail-title h1 {
+.season_detail-title h1 {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 48px;
@@ -43,7 +43,7 @@
     color: #000;
 }
 
-.tkc__season_detail-trait h2 {
+.season_detail-trait h2 {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 28px;
@@ -51,11 +51,11 @@
     color: #000;
 }
 
-.tkc__season_detail-description {
+.season_detail-description {
     padding: 0 6rem 2rem 6rem;
 }
 
-.tkc__season_detail-description h1 {
+.season_detail-description h1 {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 36px;
@@ -63,7 +63,7 @@
     color: #000;
 }
 
-.tkc__season_detail-description-text h3 {
+.season_detail-description-text h3 {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -71,7 +71,7 @@
     color: #000;
 }
 
-.tkc__episode_detail-description-text h3 {
+.episode_detail-description-text h3 {
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 24px;
@@ -79,7 +79,7 @@
     color: #000;
 }
 
-.tkc__episode_detail-description-text p {
+.episode_detail-description-text p {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -88,11 +88,11 @@
     color: #000;
 }
 
-.tkc__season_detail-episodes {
+.season_detail-episodes {
     padding: 0 6rem 2rem 6rem;
 }
 
-.tkc__season_detail-episodes h1 {
+.season_detail-episodes h1 {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 36px;
@@ -103,16 +103,16 @@
 
 @media screen and (max-width: 550px) {
 
-    .tkc__season_detail-title h2 {
+    .season_detail-title h2 {
         font-size: 18px;
         line-height: 26px;
     }
 
-    .tkc__season_detail-image img {
+    .season_detail-image img {
         width: 100%;
     }
 
-    .tkc__season_detail {
+    .season_detail {
         margin: 1rem 0;
     }
 }
