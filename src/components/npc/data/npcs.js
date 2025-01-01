@@ -1,5 +1,5 @@
 // import {unknown} from './imports'
-import {beck, balasar, lucia, mirt, hlam, azariel, aylin, durnan, death, eronis } from './imports'
+import {beck, balasar, lucia, mirt, hlam, azariel, aylin, durnan, death, eronis, willow } from './imports'
 
 export const npcs = [
     { id: '1', loc: 'balasar', imgUrl: balasar, name: 'Balasar', class: 'Paladin', race: 'Dragonborn', description: 'Balasar is a determined, self-sacrifical hero who brought protection and unity to the party--before his untimely demise at the hands of the Mad Mage.' },
@@ -12,4 +12,5 @@ export const npcs = [
     { id: '8', loc: 'durnan', imgUrl: durnan, name: 'Durnan', class: 'Fighter', race: 'Human', description: 'Durnan, the owner of The Yawning Portal where the adventurers first met and a close friend of Berrían, was shockingly killed by a fireball outside the party’s tavern, but eventually returned via a chaos-inducing Wish spell from Ariah.' },
     { id: '9', loc: 'death', imgUrl: death, name: 'Death', class: '???', race: '???', description: 'The manifestation of death itself--in recent times, the Death wolf has pursued the party, particularly Opal, and appears to have a connection with the evil Matron Mother of the Underdark realm.' },
     { id: '10', loc: 'eronis', imgUrl: eronis, name: 'Eronis', class: 'Wizard', race: 'Human', description: 'Eronis is the mysterious, enigmatic owner of The Magic Shop, a sanctuary stocked with numerous powerful magical items--until it suddenly closed, with Eronis disappearing without a trace.' },
+    { id: '11', loc: 'willow', imgUrl: willow, name: 'Willow', class: 'Druid', race: 'Elf', description: 'Willow is a powerful but empathetic who long lived in solitude before encountering the party and falling in love with Eugene, eventually leaving her sanctuary and elf form for a human form in order to return to Fireshallow alongside him.' },
 ];

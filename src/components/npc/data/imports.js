@@ -9,6 +9,7 @@ import aylin from '../../../assets/aylin.png'
 import durnan from '../../../assets/durnan.png'
 import death from '../../../assets/death.png'
 import eronis from '../../../assets/eronis.png'
+import willow from '../../../assets/willow.png'
 
 export {
     unknown,
@@ -21,5 +22,6 @@ export {
     aylin,
     durnan,
     death,
-    eronis
+    eronis,
+    willow
 }
