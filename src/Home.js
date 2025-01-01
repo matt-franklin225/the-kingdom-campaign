@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer, Characters, Header, Seasons, PartialNpcs } from './containers';
+import { Footer, PartialCharacters, Header, Seasons, PartialNpcs } from './containers';
 import { Break, Navbar, Map } from './components';
 // import { Link } from 'react-router-dom';
 import './Home.css';
@@ -13,7 +13,7 @@ const Home = () => {
             </div>
             <Break />
             <div className="gradient__bg">
-                <Characters />
+                <PartialCharacters />
                 <PartialNpcs />
             </div>
             <div className="dark__bg">

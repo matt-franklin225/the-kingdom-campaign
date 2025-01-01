@@ -1,6 +1,7 @@
 export { default as Footer} from './footer/Footer'
 export { default as Header} from './header/Header'
 export { default as Characters} from './characters/Characters'
+export { default as PartialCharacters} from './characters/PartialCharacters'
 export { default as Seasons} from './seasons/Seasons'
 export { default as FullNpcs} from './npcs/FullNpcs'
 export { default as PartialNpcs} from './npcs/PartialNpcs'
