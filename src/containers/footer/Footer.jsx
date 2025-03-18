@@ -22,6 +22,7 @@ const Footer = () => {
                     <p><a href="/seasons/season_2">S2: Conquest of Fireshallow</a></p>
                     <p><a href="/seasons/season_3">S3: The War on Thara</a></p>
                     <p><a href="/seasons/season_4">S4: Shattered Crowns</a></p>
+                    <p><a href="/seasons/season_5">S5: Civil War</a></p>
                 </div>
                 <div className="footer-links_div">
                     <h4>About</h4>
