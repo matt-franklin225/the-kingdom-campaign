@@ -46,7 +46,6 @@ function SeasonDetail() {
                                         <div key={episode.id} className="episode">
                                             <h3>Episode {episode.episode_num}: {episode.title}</h3>
                                             <p>{episode.description}</p>
-                                            {/* <a href={episode.loc}>Read more</a> */}
                                         </div>
                                     ))
                                 ) : (
