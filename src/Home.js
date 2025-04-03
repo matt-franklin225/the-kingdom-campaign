@@ -1,7 +1,6 @@
 import React from 'react'
 import { Footer, PartialCharacters, Header, Seasons, PartialNpcs } from './containers';
-import { Break, Navbar, Map } from './components';
-// import { Link } from 'react-router-dom';
+import { Break, Navbar, Map, Gallery } from './components';
 import './Home.css';
 
 const Home = () => {
@@ -20,6 +19,7 @@ const Home = () => {
                 <Seasons />
             </div>
             <Map />
+            {/* <Gallery /> */}
             <Footer />
         </div>
     )
