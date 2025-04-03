@@ -12,7 +12,7 @@ const Season = ({ title, text, imgUrl, page }) => (
             </div>
         </div>
         <div className="seasons-container__season-image">
-            <img src={imgUrl} alt="season"/>
+        <a href={page}><img src={imgUrl} alt="season"/></a>
         </div>
     </div>
 );

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Footer } from './containers';
-import { Break, Navbar, Map } from './components';
+import { Navbar, Map } from './components';
 import './Home.css';
 
 const Page = () => {
@@ -9,10 +9,7 @@ const Page = () => {
             <div className="gradient__bg">
                 <Navbar />
             </div>
-            <div className="dark__bg">
-                <Map />
-            </div>
-            <Break />
+            <Map />
             <Footer />
         </div>
     )
